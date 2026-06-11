@@ -12,7 +12,7 @@ Grab the latest installers from **[Releases](https://github.com/soxal-co/ledgend
 
 | Platform | File |
 |---|---|
-| macOS (Apple Silicon) | `LEDgend-<version>-arm64.dmg` |
+| macOS (Apple Silicon + Intel) | `LEDgend-<version>-universal.dmg` |
 | Windows 10/11 (64-bit) | `LEDgend Setup <version>.exe` |
 
 ### First launch
@@ -39,6 +39,7 @@ CertUtil -hashfile "LEDgend Setup <version>.exe" SHA256   # Windows
 - Test patterns: tile-fault finder, color bars, grey steps, gradients, motion patterns (PNG/GIF at native wall resolution)
 - Pixel-map grids for Notch / Resolume / disguise / Photoshop
 - Works 100% offline once installed
+- Auto-updates: install once, new cabinets and features arrive on their own
 
 ---
 
